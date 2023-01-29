@@ -54,7 +54,10 @@ const addMemo = () => {
       <header>
         <div class="row justify-content-between">
           <div class="col-md-4">
-            <h1 class="">berichten</h1>
+            <h1 class="">
+              berichten
+              <a href="https://jelmervanderveen.nl"></a>jelmervanderveen.nl
+            </h1>
           </div>
           <div class="col-md-3">
             <button class="btn btn-lg btn-success" @click="showModal = true">
